@@ -1,0 +1,39 @@
+# Core dependencies for socialio - Social Media Automation System
+# Based on dependencies listed in CLAUDE.md
+# Versions pinned for production stability (major.minor)
+
+# AI and API
+together~=4.1
+requests~=2.31
+psycopg2-binary~=2.9
+python-dotenv~=1.0
+
+# Data processing
+pandas~=2.1
+sqlalchemy~=2.0
+jinja2~=3.1
+asyncio
+nest-asyncio
+
+# Image processing
+pillow~=10.1
+
+# HTTP client for API retry utilities
+aiohttp~=3.9
+
+# API clients (Google/Instagram)
+gspread~=5.11
+oauth2client~=4.1
+google-api-python-client~=2.111
+google-auth~=2.23
+google-auth-oauthlib~=1.2
+google-auth-httplib2~=0.1
+instagrapi~=2.1
+
+# Web automation
+playwright~=1.41
+
+# Optional visualization (if used in analysis)
+numpy~=1.26
+matplotlib~=3.8
+seaborn~=0.13

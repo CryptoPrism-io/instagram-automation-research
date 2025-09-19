@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Post</title>
+    <link rel="stylesheet" href="../css/basic_post.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="post-container">
+        <div class="header">
+            <h1 class="title">{{title}}</h1>
+            <p class="subtitle">{{subtitle}}</p>
+        </div>
+
+        <div class="content">
+            <div class="main-content">
+                <p class="description">{{description}}</p>
+            </div>
+
+            <div class="stats-section">
+                <div class="stat-item">
+                    <span class="stat-number">{{metric1_value}}</span>
+                    <span class="stat-label">{{metric1_label}}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{{metric2_value}}</span>
+                    <span class="stat-label">{{metric2_label}}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{{metric3_value}}</span>
+                    <span class="stat-label">{{metric3_label}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="hashtags">
+                <p>{{hashtags}}</p>
+            </div>
+            <div class="branding">
+                <span class="brand">Instagram Automation Research</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
