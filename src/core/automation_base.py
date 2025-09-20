@@ -11,7 +11,7 @@ from abc import ABC, abstractmethod
 from datetime import datetime, timedelta
 from typing import Dict, Any, Optional, List
 from dataclasses import dataclass
-from session_manager import InstagramSessionManager
+from .session_manager import InstagramSessionManager
 
 logger = logging.getLogger(__name__)
 
