@@ -48,7 +48,7 @@ class InstagramSessionManager:
         self._session_metadata: Dict[str, Any] = {}
 
         # Rate limiting protection
-        self.min_login_interval_hours = 24  # Minimum time between username/password logins
+        self.min_login_interval_hours = 168  # Minimum time between username/password logins (7 days)
 
         if not self.username or not self.password:
             raise ValueError("Instagram username and password must be provided via environment variables")

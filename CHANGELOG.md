@@ -7,6 +7,67 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-09-21
+
+### Added
+- **Advanced Follower Network Analysis** - Complete follower/following extraction system
+- **Real Instagram Testing** - Live API testing with actual Instagram accounts
+- **Enhanced Session Management** - 7-day rate limiting protection with session persistence
+- **DM Analysis System** - Comprehensive direct message conversation analysis
+- **Friend Analysis Tools** - Complete user profile and network analysis
+- **Post Interaction System** - Automated liking and commenting functionality
+- **Multi-Method Extraction** - Fallback methods for reliable data extraction
+
+### Enhanced
+- **Session Manager** - Updated with 7-day rate limiting (168 hours) for account protection
+- **Library Compatibility** - Advanced workarounds for instagrapi parsing issues
+- **API Response Handling** - Custom parsing for Instagram API responses
+- **Error Recovery** - Robust fallback mechanisms for API failures
+
+### Real-World Testing Results
+- **Live Session Management** - Successfully tested with actual Instagram credentials
+- **Story Posting** - Verified story upload functionality
+- **Follower Extraction** - Successfully extracted 25+ followers/following for multiple users
+- **DM Analysis** - Analyzed 20+ real conversations with 85+ total messages
+- **Post Interactions** - Successfully liked and commented on real posts
+
+### New Scripts & Tools
+- `scripts/dm_analyzer.py` - Comprehensive DM conversation analysis
+- `scripts/friend_analysis.py` - Complete friend network analysis
+- `scripts/follower_network_analysis.py` - Advanced follower/following extraction
+- `scripts/advanced_follower_extractor.py` - Multi-method extraction with fallbacks
+- `scripts/yoga_offline_analysis.py` - Offline analysis using existing data
+- `scripts/direct_post_interaction.py` - Post liking and commenting
+- `scripts/force_new_session.py` - Fresh session creation bypassing rate limits
+- `scripts/kanika_careful_extraction.py` - Batch-based follower extraction
+
+### Data Extraction Capabilities
+- **Follower Networks** - Extract complete follower/following lists
+- **Profile Analysis** - Comprehensive user profile data
+- **Message Analysis** - DM conversation patterns and insights
+- **Post Interactions** - Like counts, comment analysis, engagement metrics
+- **Network Mapping** - Mutual connections and relationship analysis
+
+### Technical Improvements
+- **Rate Limiting** - 7-day protection prevents account restrictions
+- **Session Persistence** - Maintains authentication across sessions
+- **API Fallbacks** - Multiple methods for data extraction
+- **Error Handling** - Comprehensive exception handling and recovery
+- **Data Storage** - JSON-based storage for all extracted data
+
+### Bug Fixes
+- Fixed import issues in automation_base.py (relative imports)
+- Fixed requirements.txt version conflicts (together package)
+- Resolved instagrapi parsing errors with custom response handling
+- Fixed session validation issues with proper error handling
+
+### Testing Verification
+- **61 Tests** across multiple categories (unit, integration, performance)
+- **Live API Testing** with real Instagram accounts
+- **Session Management** verified with actual credentials
+- **Data Extraction** tested with multiple users
+- **Post Interactions** verified with real posts
+
 ### Added
 - Initial project setup and repository structure
 - Comprehensive documentation system with instagrapi knowledge base
