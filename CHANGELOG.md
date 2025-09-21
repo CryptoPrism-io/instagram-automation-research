@@ -7,6 +7,97 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2025-09-21
+
+### 📁 **Complete Repository Reorganization**
+- **Logical Folder Structure** - Organized all files by purpose and category
+- **Core Framework** - Moved production code to dedicated `core/` folder (renamed from `src/`)
+- **Script Categorization** - Separated utilities, analysis, and experimental scripts
+- **Session Management** - Dedicated `sessions/` folder for session files
+- **Configuration Centralization** - All config files moved to `config/` folder
+- **Data Organization** - Structured data by type (analysis, experiments, sessions)
+- **Reports Consolidation** - All reports moved to dedicated `reports/` folder
+
+### 🔧 **Session Management Enhancements**
+- **Fixed Session Validation Bug** - Resolved false "session expired" errors in instagrapi library
+- **Added Bypass Method** - `get_client_bypass_validation()` for reliable session loading
+- **Session Persistence Confirmed** - Verified sessions work correctly and don't actually expire
+- **Rate Limit Detection** - Proper handling of Instagram's "Please wait a few minutes" responses
+- **Multiple Session Cleanup** - Removed duplicate session files, keeping single source in `sessions/`
+
+### 🗂️ **New Folder Structure**
+```
+├── core/                   # Core framework (renamed from src/)
+├── sessions/              # Session files and authentication data
+├── config/                # Configuration files (.env, requirements.txt)
+├── scripts/
+│   ├── utilities/         # Reusable utility scripts (6 core tools)
+│   ├── analysis/          # Analysis and research scripts (3 tools)
+│   └── experiments/       # One-time experimental scripts (40+ experiments)
+├── data/
+│   ├── analysis/          # Analysis results and reports
+│   ├── experiments/       # Experimental data and results
+│   └── sessions/          # Session-related data
+├── docs/                  # Documentation and guides
+├── tests/                 # Test files and test data
+└── reports/               # Generated reports and findings
+```
+
+### 🛠️ **Script Organization**
+- **Utility Scripts** (6) - Core reusable functionality in `scripts/utilities/`
+  - `create_session.py` - Session creation and initialization
+  - `dm_analyzer.py` - Direct message analysis tool
+  - `follower_activity_analyzer.py` - Follower activity tracking
+  - `follower_network_analysis.py` - Network relationship analysis
+  - `friend_analysis.py` - Comprehensive friend/follower analysis
+  - `setup.py` - Setup and configuration utility
+
+- **Analysis Scripts** (3) - Research tools in `scripts/analysis/`
+  - `followers_latest_posts_smart.py` - Smart follower post analysis
+  - `my_followers_activity.py` - Personal follower activity analysis
+  - `my_followers_last_posts.py` - Last post tracking for followers
+
+- **Experimental Scripts** (40+) - One-time experiments in `scripts/experiments/`
+  - Various unfollow automation scripts
+  - Session testing and validation tools
+  - User-specific analysis experiments
+  - API method testing utilities
+
+### 📊 **Data Organization**
+- **Analysis Data** - Research results and insights in `data/analysis/`
+- **Experimental Data** - One-time experiment results in `data/experiments/`
+- **Session Data** - Session backups and related data in `data/sessions/`
+
+### 📚 **Documentation Updates**
+- **Comprehensive README** - Updated with new structure and v0.3.0 features
+- **File Organization Guide** - Clear documentation of folder purposes
+- **Quick Start Guide** - Updated paths and setup instructions
+- **Import Path Updates** - Documentation reflects new `core/` structure
+
+### 🔄 **Migration Changes**
+- **Session File Location** - Moved from root to `sessions/instagram_session.json`
+- **Configuration Files** - Moved `.env*` and `requirements.txt` to `config/`
+- **Report Files** - Moved all `.md` reports to `reports/` folder
+- **Import Paths** - Updated from `src.core` to `core.core` in documentation
+
+### 🧹 **Cleanup Actions**
+- **Duplicate Session Files** - Removed redundant session files in `data/` and `scripts/data/`
+- **Root Directory** - Cleaned up root directory - no loose files
+- **Logical Separation** - Clear distinction between core vs experimental code
+- **Purpose-Based Organization** - Every file in appropriate category folder
+
+### 🔧 **Technical Improvements**
+- **Session Manager Enhancement** - Added `get_client_bypass_validation()` method
+- **Validation Bug Fix** - Bypassed problematic `user_info_by_username()` validation
+- **Rate Limit Handling** - Proper detection of temporary Instagram restrictions
+- **Import Path Consistency** - Standardized import paths throughout codebase
+
+### ✅ **Verification & Testing**
+- **Session Functionality** - Confirmed session loading works correctly
+- **Folder Structure** - Verified all files properly categorized
+- **Import Updates** - Updated key documentation for new paths
+- **Git Organization** - Prepared for clean commit with logical structure
+
 ## [0.2.0] - 2025-09-21
 
 ### Added

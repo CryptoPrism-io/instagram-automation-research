@@ -1,0 +1,57 @@
+{
+  "session_data": {
+    "uuids": {
+      "phone_id": "10976d56-2c76-4159-a52f-c9c329e1dc16",
+      "uuid": "7405907a-11e3-4c04-9638-e1936b109ba9",
+      "client_session_id": "ad125191-8350-42cd-a013-5f48d7540c0d",
+      "advertising_id": "a7bb04f6-7cd7-4395-86d7-55e4cdb12ddc",
+      "android_device_id": "android-88f46efc68910f4d",
+      "request_id": "43a0c5d4-c47a-46fb-90a2-ddc01dd63a72",
+      "tray_session_id": "00c2fc7b-e697-4978-913a-d1403717b642"
+    },
+    "mid": "aM_58wABAAF8nmL3vVplOeyJCTNa",
+    "ig_u_rur": null,
+    "ig_www_claim": null,
+    "authorization_data": {
+      "ds_user_id": "68833054498",
+      "sessionid": "68833054498%3Aga6Tf8bUM1GBbW%3A2%3AAYiRbq8yISIw63vgWD1c1FNkaRHRhCOQhPOKx_nx9g"
+    },
+    "cookies": {},
+    "last_login": 1758460420.9461544,
+    "device_settings": {
+      "app_version": "269.0.0.18.75",
+      "android_version": 26,
+      "android_release": "8.0.0",
+      "dpi": "480dpi",
+      "resolution": "1080x1920",
+      "manufacturer": "OnePlus",
+      "device": "devitron",
+      "model": "6T Dev",
+      "cpu": "qcom",
+      "version_code": "314665256"
+    },
+    "user_agent": "Instagram 269.0.0.18.75 Android (26/8.0.0; 480dpi; 1080x1920; OnePlus; 6T Dev; devitron; qcom; en_US; 314665256)",
+    "country": "US",
+    "country_code": 1,
+    "locale": "en_US",
+    "timezone_offset": -14400
+  },
+  "metadata": {
+    "created_at": "2025-09-21T18:43:40.962671",
+    "last_updated": "2025-09-21T18:43:40.962671",
+    "last_fresh_login": "2025-09-21T18:43:40.962671",
+    "last_validated": "2025-09-21T20:45:26.698434",
+    "login_count": 1,
+    "device_uuids": {
+      "phone_id": "10976d56-2c76-4159-a52f-c9c329e1dc16",
+      "uuid": "7405907a-11e3-4c04-9638-e1936b109ba9",
+      "client_session_id": "ad125191-8350-42cd-a013-5f48d7540c0d",
+      "advertising_id": "a7bb04f6-7cd7-4395-86d7-55e4cdb12ddc",
+      "android_device_id": "android-88f46efc68910f4d",
+      "request_id": "43a0c5d4-c47a-46fb-90a2-ddc01dd63a72",
+      "tray_session_id": "00c2fc7b-e697-4978-913a-d1403717b642"
+    },
+    "username": "cryptoprism.io",
+    "session_version": "1.0"
+  }
+}
